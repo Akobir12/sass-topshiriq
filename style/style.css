@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ribik;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hero .hero-btn {
+  position: relative;
+  width: 180px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.hero .hero-btn .btn1 {
+  margin: 15px 15px 15px 0px;
+  position: relative;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: linear 0.3s;
+  font: 500 25px/22px Rubik;
+  width: 170px;
+  height: 60px;
+}
+.hero .hero-btn .btn1:hover {
+  width: 320px;
+}
+.hero .hero-btn .btn1.btn1::before {
+  transition: linear 1.5s;
+  margin-left: 240px;
+  border: 0;
+  border-radius: 5px;
+  padding: 19.3px 0px 19.3px 0px;
+  background-color: transparent;
+  color: transparent;
+  font-size: 20px;
+  content: "Telegram";
+}
+.hero .hero-btn .btn1:hover::before {
+  padding: 19.3px 122px;
+  margin-left: 0px;
+  background-color: blue;
+  color: #fff;
+}
+.hero .hero-btn .btn2 {
+  margin: 15px 15px 15px 0px;
+  position: relative;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: linear 0.3s;
+  font: 500 25px/22px Rubik;
+  width: 170px;
+  height: 60px;
+}
+.hero .hero-btn .btn2:hover {
+  width: 320px;
+}
+.hero .hero-btn .btn2.btn2::before {
+  transition: linear 1.5s;
+  margin-left: 240px;
+  border: 0;
+  border-radius: 5px;
+  padding: 19.3px 0px 19.3px 0px;
+  background-color: transparent;
+  color: transparent;
+  font-size: 20px;
+  content: "Instagram";
+}
+.hero .hero-btn .btn2:hover::before {
+  padding: 19.3px 119px;
+  margin-left: 0px;
+  background-color: darkmagenta;
+  color: #fff;
+}
+.hero .hero-btn .btn3 {
+  margin: 15px 15px 15px 0px;
+  position: relative;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: linear 0.3s;
+  font: 500 25px/22px Rubik;
+  width: 170px;
+  height: 60px;
+}
+.hero .hero-btn .btn3:hover {
+  width: 320px;
+}
+.hero .hero-btn .btn3.btn3::before {
+  transition: linear 1.5s;
+  margin-left: 240px;
+  border: 0;
+  border-radius: 5px;
+  padding: 19.3px 0px 19.3px 0px;
+  background-color: transparent;
+  color: transparent;
+  font-size: 20px;
+  content: "YouTube";
+}
+.hero .hero-btn .btn3:hover::before {
+  padding: 19.3px 122px;
+  margin-left: 0px;
+  background-color: darkmagenta;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ribik;
+}
+
+$fontbt1: 500 25px/22px Rubik;
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    .hero-btn {
+        position: relative;
+        width: 180px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        ;
+        .btn1 {
+            margin: 15px 15px 15px 0px;
+            position: relative;
+            border-radius: 5px;
+            background-color: transparent;
+            transition: linear 0.3s;
+            font: $fontbt1;
+            width: 170px;
+            height: 60px;
+            &:hover {
+                width: 320px;
+            }
+            &.btn1::before {
+                transition: linear 1.5s;
+                margin-left: 240px;
+                border: 0;
+                border-radius: 5px;
+                padding: 19.3px 0px 19.3px 0px;
+                background-color: transparent;
+                color: transparent;
+                font-size: 20px;
+                content: 'Telegram';
+            }
+        }
+        .btn1:hover::before {
+            padding: 19.3px 122px;
+            margin-left: 0px;
+            background-color: blue;
+            color: #fff;
+        }
+        .btn2 {
+            margin: 15px 15px 15px 0px;
+            position: relative;
+            border-radius: 5px;
+            background-color: transparent;
+            transition: linear 0.3s;
+            font: $fontbt1;
+            width: 170px;
+            height: 60px;
+            &:hover {
+                width: 320px;
+            }
+            &.btn2::before {
+                transition: linear 1.5s;
+                margin-left: 240px;
+                border: 0;
+                border-radius: 5px;
+                padding: 19.3px 0px 19.3px 0px;
+                background-color: transparent;
+                color: transparent;
+                font-size: 20px;
+                content: 'Instagram';
+            }
+        }
+        .btn2:hover::before {
+            padding: 19.3px 119px;
+            margin-left: 0px;
+            background-color: darkmagenta;
+            color: #fff;
+        }
+        .btn3 {
+            margin: 15px 15px 15px 0px;
+            position: relative;
+            border-radius: 5px;
+            background-color: transparent;
+            transition: linear 0.3s;
+            font: $fontbt1;
+            width: 170px;
+            height: 60px;
+            &:hover {
+                width: 320px;
+            }
+            &.btn3::before {
+                transition: linear 1.5s;
+                margin-left: 240px;
+                border: 0;
+                border-radius: 5px;
+                padding: 19.3px 0px 19.3px 0px;
+                background-color: transparent;
+                color: transparent;
+                font-size: 20px;
+                content: 'YouTube';
+            }
+        }
+        .btn3:hover::before {
+            padding: 19.3px 122px;
+            margin-left: 0px;
+            background-color: darkmagenta;
+            color: #fff;
+        }
+    }
+}
