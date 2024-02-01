@@ -161,7 +161,7 @@
   content: "";
 }
 .hero .hero-btn .btn3.btn3::after {
-  margin-top: -13px;
+  margin-top: -15px;
   content: "Youtube";
   position: absolute;
   left: -100px;
